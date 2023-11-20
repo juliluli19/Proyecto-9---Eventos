@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(39, 165, 255);
+}
+
+.eventos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    margin: 5vh 0 5vh 0;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    width: auto;
+    height: auto;
+    padding: 25px 30px;
+    border-radius: .7rem;
+    gap: 5px;
+    box-shadow: 2px 0 20px 0px aliceblue;
+
+}
+
+.formulario form input {
+    border: 2px solid rgb(39, 165, 255);
+    border-radius: .7rem;
+    padding: 5px 10px;
+}
+
+#agregar {
+    background-color: rgb(39, 165, 255);
+    color: aliceblue;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+h1 {
+    margin: 0 0 2vh 0;
+    color: aliceblue;
+}
+
+h1 img {
+    width: 30px;
+    height: 30px;
+}
+
+.listaEventos2 {
+    display: grid;
+    grid-template-rows: auto;
+    width: auto;
+    background-color: aliceblue;
+    border-radius: 1rem;
+    box-shadow: 2px 0 15px 0px aliceblue;
+}
+
+.evento {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2.5px solid rgb(39, 165, 255);
+    border-radius: .7rem;
+    margin: 15px;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.dias {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.dias span {
+    text-align: center;
+    justify-content: center;
+}
+
+.diasFaltantes {
+    color: green;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nomreEvento {
+    text-align: center;
+    font-size: 25px;
+    align-items: center;
+    margin: 0px 30px;
+    padding: 20px;
+    width: 200px;
+    word-wrap: break-word;
+}
+
+.fechaEvento {
+    align-items: center;
+    margin: 0px 35px 0px 0px;
+}
+
+.eliminar {
+    background-color: greenyellow;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+.eliminar:hover {
+    background-color: red;
+    color: aliceblue;
+}
+
+a {
+    margin: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
